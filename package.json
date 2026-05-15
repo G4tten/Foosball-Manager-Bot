@@ -1,0 +1,25 @@
+{
+  "name": "foosball-manager-bot",
+  "version": "1.0.0",
+  "description": "🏆 Bigliardino Manager Bot: Un'esperienza di gestione sportiva testuale. Crea il tuo club, allena i giocatori, gestisci l'intesa tra attaccanti e difensori e sfida altri utenti in una classifica globale. Il calcio balilla non è mai stato così competitivo. 📈",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/G4tten/Foosball-Manager-Bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/G4tten/Foosball-Manager-Bot/issues"
+  },
+  "homepage": "https://github.com/G4tten/Foosball-Manager-Bot#readme",
+  "devDependencies": {
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.6"
+  }
+}

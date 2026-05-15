@@ -25,3 +25,13 @@ Il progetto richiede la gestione di logiche complesse (statistiche giocatori, ca
 - **Conseguenze:** Garantisce che ogni modifica alla logica di calcolo dei punteggi non rompa le funzionalità esistenti (Regression Testing), mantenendo alta la qualità del codice.
 
 ---
+
+## [2026-05-15] - Organizzazione del Codice e Isolamento dell'Ambiente
+
+### Contesto
+Con l'inizializzazione tecnica del progetto, è necessario definire una struttura delle cartelle chiara, scalabile e standard, garantendo al contempo che le dipendenze installate rimangano isolate senza generare conflitti sul sistema locale.
+
+### 1. Struttura del Codice basata sulla cartella `src/`
+**Decisione:** Racchiudere tutto il codice sorgente del bot all'interno di una cartella dedicata denominata `src/`.
+- **Perché:** Permette di separare nettamente il codice scritto a mano (i file `.ts`) dalle configurazioni del progetto (come `package.json` o `tsconfig.json`). Inoltre, fornisce un confine preciso al compilatore TypeScript, ottimizzando i tempi di scansione ed evitando che analizzi file non pertinenti.
+- **Conseguenze:** Maggiore ordine visivo, scalabilità nell'organizzazione dei moduli futuri (comandi, database, motori di calcolo) e adozione di uno standard universale facilmente riconoscibile da altri sviluppatori.
