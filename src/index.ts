@@ -1,0 +1,1 @@
+console.log("🏆 Bigliardino Manager Bot pronto al servizio!");
