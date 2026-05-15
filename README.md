@@ -4,6 +4,18 @@
 ## 🏟️ Il Progetto
 L'obiettivo è creare un'esperienza simile a *Online Soccer Manager (OSM)* ma calata sul calcio balilla. Il giocatore veste i panni del manager di una squadra di bigliardino, gestendo acquisti, allenamenti e formazioni.
 
+## 🎢 Come avviare il progetto in locale
+
+Poiché le dipendenze esterne non vengono caricate su GitHub per motivi di leggerezza e sicurezza, dopo aver clonato il repository è necessario ripristinare l'ambiente.
+
+1. **Installa le dipendenze locali (TypeScript e Vitest):**
+   ```bash
+   npm install
+
+2. **Verifica che l'ambiente sia pronto:**
+    ```bash
+    npx tsc --version
+
 ## 🚀 Caratteristiche Principali
 - **Bigliardino Mercato:** Sistema di compravendita giocatori (Attaccanti e Difensori).
 - **Sistema di Intesa:** Meccanica di compatibilità tra coppie di giocatori (ispirata alla chimica di FIFA).
