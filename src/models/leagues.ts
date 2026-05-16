@@ -1,0 +1,1 @@
+export type LeagueTier = 'Principianti' | 'Intermedi' | 'Avanzati' | 'Professionisti' | 'Elite';
